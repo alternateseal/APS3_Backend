@@ -4,8 +4,7 @@ function Navbar() {
   return (
     <>
         <nav className="navbar">
-            .navbar-container
-        
+            
         </nav>
     </>
   )
