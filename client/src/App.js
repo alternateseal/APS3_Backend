@@ -1,13 +1,25 @@
 import React from 'react';
+import Navbar from './components/Navbar';
+import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
+import Home from '.component/pages/Home';
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello, World!</h1>
-	<p>Please kill me now</p>
-    </div>
+    <>
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route path='/' exact component=
+        {Home} />
+      </Switch>
+    </Router>
+      <Navbar />
+    </>
   );
 }
 
 export default App;
+
+/* CHANGE PLEASE */
