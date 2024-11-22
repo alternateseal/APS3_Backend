@@ -7,7 +7,6 @@ function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
-
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
@@ -18,6 +17,10 @@ function Navbar() {
       setButton(true);
     }
   }; 
+
+  useEffect(() => {
+    showButton();
+  }, []);
 
 window.addEventListener('resize', showButton);
 
