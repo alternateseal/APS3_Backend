@@ -39,3 +39,14 @@
     color: #242424;
     transition: all 0.3s ease-out;
 }
+
+.btn-mobile {
+    display: inline-block;
+}
+
+/* Hide the button on mobile resolutions */
+@media screen and (max-width: 960px) {
+    .btn-mobile {
+        display: none;
+    }
+}
