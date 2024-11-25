@@ -5,7 +5,7 @@ function About() {
     return (
         <div className='about-container'>
             <section className='about-description'>
-                <h1>About me</h1>
+                <h1>About Me</h1>
                 <p>
                     My name is Kyle and I'm a software engineer. I would consider myself
                     a jack of all trades, but I believe that is an advantage. Diving into
