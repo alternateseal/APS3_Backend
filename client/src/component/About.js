@@ -5,10 +5,8 @@ function About() {
     return (
         <div className='about-container'>
             <section className='about-description'>
-                <p className='about-description-heading'>
-                    About me
-                </p>
-                <p className='about-description-text'>
+                <h1>About me</h1>
+                <p>
                     My name is Kyle and I'm a software engineer. I would consider myself
                     a jack of all trades, but I believe that is an advantage. Diving into
                     a wide variety of technology gives me a better understanding of how
@@ -22,27 +20,21 @@ function About() {
                     <div class="about-tech-stack-icons">
                         <div class="icon">
                             <img src="images/react.png" alt="React" />
-                            <p>React</p>
                         </div>
                         <div class="icon">
                             <img src="images/node.png" alt="Node.js" />
-                            <p>Node.js</p>
                         </div>
                         <div class="icon">
                             <img src="images/graphql.png" alt="GraphQL" />
-                            <p>GraphQL</p>
                         </div>
                         <div class="icon">
                             <img src="images/aws.png" alt="AWS" />
-                            <p>AWS</p>
                         </div>
                         <div class="icon">
-                            <img src="images/javascript.png" alt="JavaScript" />
-                            <p>JavaScript</p>
+                            <img src="images/js.png" alt="JavaScript" />
                         </div>
                         <div class="icon">
                             <img src="images/sql.png" alt="SQL" />
-                            <p>SQL</p>
                         </div>
                     </div>
                 </div>
