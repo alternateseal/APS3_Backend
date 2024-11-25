@@ -9,7 +9,7 @@
 }
 
 .about-description {
-    background-color: #242222;
+    background-color: #000000;
     padding: 4rem 2rem 2rem 2rem;
     display: flex;
     flex-direction: column;
@@ -36,7 +36,7 @@
     justify-content: center;
     gap: 20px;
     padding: 20px;
-    background-color: #1e1e1e;
+    /*background-color: #1e1e1e;*/
   }
   
   .icon {
@@ -45,7 +45,7 @@
     align-items: center;
     justify-content: center;
     width: 240px;
-    height: 200px;
+    height: 180px;
     border-radius: 10px;
     background-color: #2a2a2a;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
