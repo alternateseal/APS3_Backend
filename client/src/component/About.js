@@ -21,27 +21,27 @@ function About() {
                 <div className='about-tech-stack-wrapper'>
                     <div class="about-tech-stack-icons">
                         <div class="icon">
-                            <img src="/path-to-your-icons/react-icon.png" alt="React" />
+                            <img src="images/react.png" alt="React" />
                             <p>React</p>
                         </div>
                         <div class="icon">
-                            <img src="/path-to-your-icons/node-icon.png" alt="Node.js" />
+                            <img src="images/node.png" alt="Node.js" />
                             <p>Node.js</p>
                         </div>
                         <div class="icon">
-                            <img src="/path-to-your-icons/graphql-icon.png" alt="GraphQL" />
+                            <img src="images/graphql.png" alt="GraphQL" />
                             <p>GraphQL</p>
                         </div>
                         <div class="icon">
-                            <img src="/path-to-your-icons/aws-icon.png" alt="AWS" />
+                            <img src="images/aws.png" alt="AWS" />
                             <p>AWS</p>
                         </div>
                         <div class="icon">
-                            <img src="/path-to-your-icons/javascript-icon.png" alt="JavaScript" />
+                            <img src="images/javascript.png" alt="JavaScript" />
                             <p>JavaScript</p>
                         </div>
                         <div class="icon">
-                            <img src="/path-to-your-icons/sql-icon.png" alt="SQL" />
+                            <img src="images/sql.png" alt="SQL" />
                             <p>SQL</p>
                         </div>
                     </div>
@@ -50,3 +50,5 @@ function About() {
         </div>
     )
 }
+
+export default About;

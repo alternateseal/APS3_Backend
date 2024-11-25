@@ -1,0 +1,40 @@
+.about-tech-stack-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #1e1e1e;
+  }
+  
+  .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #2a2a2a;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    color: white;
+  }
+  
+  .icon img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .icon p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .icon:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+  }
