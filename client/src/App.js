@@ -7,12 +7,9 @@ import Home from './component/pages/Home';
 function App() {
   return (
     <>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path='/' exact element={ <Home />}></Route>
-        </Routes>
-      </Router>
+      <div ClassName="header-wrapper">
+        <Nav/>
+      </div>
     </>
   );
 }
