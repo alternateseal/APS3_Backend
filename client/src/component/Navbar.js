@@ -2,6 +2,13 @@ import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 
 function Navbar() {
+
+  const menu = useRef{};
+
+  const menuhandler = () => {
+    menu.current.classList.toggle(Navbar.openMenu)
+  }
+
   return (
     <div className={navCSS.nav}>
       <div className={navCSS.logo}>
@@ -16,7 +23,7 @@ function Navbar() {
         <li><a href="#">Contact</a></li>
       </ul>
 
-      <i className="ri-menu-4-line"></i>
+      <i className="ri-menu-4-line" id ={Navbar.bars} onCLick={menuhandler}></i>
     </div>
   );
 }

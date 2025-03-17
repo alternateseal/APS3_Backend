@@ -35,3 +35,45 @@ body {
 
     overflow: hidden;
 }
+
+button {
+    height: 40px;
+    width: 140px;
+
+    border: 1px solid var(--primary-color);
+    font-weight: 500;
+
+    background-color: #1e1e1e;
+    cursor: pointer;
+
+    color: var(--primary-color);
+    font-size: 18px;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+button::after {
+    content: "Download";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    background: linear-gradient(90deg , var(--primary-color) #f7850f);
+
+    padding: 10px 0;
+
+    color: #1e1e1e;
+
+    font-size: 15px !important;
+
+    transform: translateX(130px);
+
+    transition: .6s;
+}
+
+button:hover:after {
+    transform: translateX(0);
+}
