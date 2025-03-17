@@ -13,7 +13,7 @@
 }
 
 :root {
-    --primary-color: #ffdb39;
+    --primary-color: #dbccff;
 }
 
 body {
@@ -31,7 +31,8 @@ body {
     display: flex;
     flex-direction: column;
 
-    background-color: #1e1e1e;
+    background: linear-gradient(0deg , rgba(44,2,89,1) 0%, 
+    rgba(16,16,16) 100%);
 
     overflow: hidden;
 }
@@ -61,11 +62,11 @@ button::after {
     left: 0;
     width: 100%;
 
-    background: linear-gradient(90deg , var(--primary-color) #f7850f);
+    background: linear-gradient(90deg , var(--primary-color) , #8754ff 80%);
 
     padding: 10px 0;
 
-    color: #1e1e1e;
+    color: #fff;
 
     font-size: 15px !important;
 
