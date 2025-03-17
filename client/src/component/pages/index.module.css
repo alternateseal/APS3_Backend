@@ -74,13 +74,15 @@
     width: 580px;
     height: 580px;
 
+    z-index: 2;
+
     border-radius: 50%;
 }
 
 .borderAnimation {
     position: absolute;
-    height: 582px;
-    width: 582px;
+    height: 585px;
+    width: 585px;
 
     top: 50%;
     left: 50%;
@@ -97,5 +99,26 @@
             transparent 50% ,
             var(--primary-color)
         );
+
+        border-radius: 50%;
+
+        animation: spin 2s infinite;
+    }
+
+    &::before {
+        filter: blur(50px);
+        opacity: 1;
+    }
+}
+
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+@keyframes spin {
+    to {
+        --angle: 360deg;
     }
 }
