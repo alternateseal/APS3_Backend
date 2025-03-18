@@ -3,7 +3,7 @@ import './Navbar.css';
 
 function Navbar() {
 
-  const menu = useRef{};
+  const menu = useRef();
 
   const menuhandler = () => {
     menu.current.classList.toggle(Navbar.openMenu)
