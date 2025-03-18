@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "../../Components/Nav/Nav";
+import Nav from "../../component/Nav/Nav";
 
 import indexCSS from './../Index/Index.module.css';
 

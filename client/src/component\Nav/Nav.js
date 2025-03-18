@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import './Navbar.css';
+import React, { useRef } from 'react';
+import navCSS from './Nav.css';
 
-function Navbar() {
+function Nav() {
 
   const menu = useRef();
 
   const menuhandler = () => {
-    menu.current.classList.toggle(Navbar.openMenu)
+    menu.current.classList.toggle(Nav.openMenu)
   }
 
   return (
@@ -23,9 +23,9 @@ function Navbar() {
         <li><a href="#">Contact</a></li>
       </ul>
 
-      <i className="ri-menu-4-line" id ={Navbar.bars} onCLick={menuhandler}></i>
+      <i className="ri-menu-4-line" id ={Nav.bars} onCLick={menuhandler}></i>
     </div>
   );
 }
 
-export default Navbar;
+export default Nav;
