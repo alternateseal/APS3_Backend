@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef } from "react";
 import navCSS from './Nav.css';
 
 function Nav() {
@@ -28,4 +28,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default Nav
