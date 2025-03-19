@@ -11,8 +11,6 @@ function Index () {
 
             {/* ---------------------Header--------------------- */}
             <div className={indexCSS.headerWrapper}>
-                <Nav/>
-
                 <div className={indexCSS.headerContainer}>
                     <div className={indexCSS.headerContent}>
                         <h5>Hello I am</h5>
