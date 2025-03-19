@@ -81,8 +81,8 @@
 
 .borderAnimation {
     position: absolute;
-    height: 585px;
-    width: 585px;
+    height: 582px;
+    width: 582px;
 
     top: 50%;
     left: 50%;
@@ -132,8 +132,8 @@
 
     .borderAnimation {
         position: absolute;
-        height: 505px;
-        width: 505px;
+        height: 502px;
+        width: 502px;
     }
 }
 

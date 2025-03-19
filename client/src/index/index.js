@@ -13,10 +13,10 @@ function Index () {
             <div className={indexCSS.headerWrapper}>
                 <div className={indexCSS.headerContainer}>
                     <div className={indexCSS.headerContent}>
-                        <h5>Hello I am</h5>
-                        <h1>Kyle</h1>
-                        <p>A Strange<span></span></p>
-                        <p>engineer, designer, support agent</p>
+                        <h5>Hello, I am</h5>
+                        <h1>Kyle<br /></h1>
+                        <p>A Strategic</p>
+                        <p>engineer, designer, innovator, architect, assistant</p>
 
                         <div className={indexCSS.social}>
                             <i className="ri-linkedin-line"></i>
