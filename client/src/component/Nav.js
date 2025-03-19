@@ -6,7 +6,7 @@ function Nav() {
   const menu = useRef();
 
   const menuhandler = () => {
-    menu.current.classList.toggle(Nav.openMenu)
+    menu.current.classList.toggle(navCSS.openMenu)
   }
 
   return (
@@ -23,7 +23,7 @@ function Nav() {
         <li><a href="#">Contact</a></li>
       </ul>
 
-      <i className="ri-menu-4-line" id ={Nav.bars} onCLick={menuhandler}></i>
+      <i className="ri-menu-4-line" id ={navCSS.bars} onCLick={menuhandler}></i>
     </div>
   );
 }
