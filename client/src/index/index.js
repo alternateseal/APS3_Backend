@@ -1,9 +1,9 @@
 import React from "react";
-import Nav from "../../component/Nav";
+import Nav from "./../component/Nav";
 
-import indexCSS from './../index/index.module.css';
+import indexCSS from './index/index.module.css';
 
-import heroImg from './../../assets/hero-image-transparent.png';
+import heroImg from './../assets/hero-image-transparent.png';
 
 function Index () {
     return (
