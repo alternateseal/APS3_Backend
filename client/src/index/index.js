@@ -14,7 +14,7 @@ function Index () {
                 <div className={indexCSS.headerContainer}>
                     <div className={indexCSS.headerContent}>
                         <h5>Hello, I am</h5>
-                        <h1>Kyle<br /></h1>
+                        <h1>Kyle</h1>
                         <p>A Strategic</p>
                         <p>engineer, designer, innovator, architect, assistant</p>
 
