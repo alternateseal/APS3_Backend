@@ -18,7 +18,7 @@ function Index () {
                         <p>A Strange<span></span></p>
                         <p>engineer, designer, support agent</p>
 
-                        <div ClassName={indexCSS.social}>
+                        <div className={indexCSS.social}>
                             <i className="ri-linkedin-line"></i>
                             <i className="ri-github-line"></i>
                         </div>
