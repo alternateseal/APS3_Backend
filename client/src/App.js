@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from './component/Nav';
+import Index from './index/index';
 import './App.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <div className="header-wrapper">
         <Nav />
+        <Index />
       </div> 
     </>
   );
