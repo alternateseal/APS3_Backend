@@ -13,7 +13,7 @@
 }
 
 :root {
-    --primary-color: #dbccff;
+    --primary-color: #ccffee;
 }
 
 body {
@@ -31,7 +31,7 @@ body {
     display: flex;
     flex-direction: column;
 
-    background: linear-gradient(0deg , rgba(44,2,89,1) 0%, 
+    background: linear-gradient(0deg , rgb(2, 89, 70) 0%, 
     rgba(16,16,16) 100%);
 
     overflow: hidden;
@@ -62,7 +62,7 @@ button::after {
     left: 0;
     width: 100%;
 
-    background: linear-gradient(90deg , var(--primary-color) , #8754ff 80%);
+    background: linear-gradient(90deg , var(--primary-color) , #ffc354 80%);
 
     padding: 10px 0;
 
