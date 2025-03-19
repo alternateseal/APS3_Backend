@@ -5,18 +5,31 @@ import indexCSS from './index.module.css';
 
 import heroImg from './../assets/hero-image-white.png';
 
+import { ReactTyped } from "react-typed";
+
 function Index () {
     return (
         <div>
 
             {/* ---------------------Header--------------------- */}
+            <Nav />
+
             <div className={indexCSS.headerWrapper}>
                 <div className={indexCSS.headerContainer}>
                     <div className={indexCSS.headerContent}>
                         <h5>Hello, I am</h5>
                         <h1>Kyle</h1>
-                        <p>A Strategic</p>
-                        <p>engineer, designer, innovator, architect, assistant</p>
+                        <p>A Strategic &nbsp;
+                            <span>
+                                <ReactTyped
+                                    strings={['Web Designer' , 'App Designer' , 'UI / UX Designer' , 'Full-stack Developer' , 'Database Architect' , 'API Developer' , 'Backend Engineer']}
+                                    typeSpeed={40}
+                                    loop={true}
+                                    backSpeed={40}
+                                ></ReactTyped>
+                            </span>
+                        </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
                         <div className={indexCSS.social}>
                             <i className="ri-linkedin-line"></i>

@@ -7,7 +7,6 @@ function App() {
   return (
     <>
       <div className="header-wrapper">
-        <Nav />
         <Index />
       </div> 
     </>
