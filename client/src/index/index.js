@@ -28,7 +28,7 @@ function Index () {
                     <div className={indexCSS.headerImage}>
                         <img src={heroImg} alt="hero-image" />
 
-                        <div className={indexCSS.borderAnimations}></div>
+                        <div className={indexCSS.borderAnimation}></div>
                     </div>
                 </div>
             </div>

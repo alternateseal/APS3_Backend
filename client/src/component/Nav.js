@@ -12,7 +12,7 @@ function Nav() {
   return (
     <div className={navCSS.nav}>
       <div className={navCSS.logo}>
-        <a href="#"><strong>KRB</strong>ꓤꓘ</a>
+        <a href="#">KRBꓤꓘ</a>
       </div>
 
       <ul ref={menu}>
