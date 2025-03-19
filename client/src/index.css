@@ -62,11 +62,11 @@ button::after {
     left: 0;
     width: 100%;
 
-    background: linear-gradient(90deg , var(--primary-color) , #ffc354 80%);
+    background: linear-gradient(90deg , var(--primary-color) , #ffffff 80%);
 
     padding: 10px 0;
 
-    color: #fff;
+    color: #0d4229;
 
     font-size: 15px !important;
 
