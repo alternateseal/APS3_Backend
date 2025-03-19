@@ -3,7 +3,7 @@ import Nav from "./../component/Nav";
 
 import indexCSS from './index.module.css';
 
-import heroImg from './../assets/hero-image-transparent.png';
+import heroImg from './../assets/hero-image-white.png';
 
 function Index () {
     return (
