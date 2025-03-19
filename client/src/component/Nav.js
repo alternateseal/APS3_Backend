@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import navCSS from './Nav.css';
+import navCSS from './Nav.module.css';
 
 function Nav() {
 
@@ -15,7 +15,7 @@ function Nav() {
         <a href="#">Kyle</a>
       </div>
 
-      <ul>
+      <ul ref={menu}>
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Services</a></li>
@@ -23,9 +23,9 @@ function Nav() {
         <li><a href="#">Contact</a></li>
       </ul>
 
-      <i className="ri-menu-4-line" id ={navCSS.bars} onCLick={menuhandler}></i>
+      <i className="ri-menu-4-line" id={navCSS.bars} onClick={menuhandler}></i>
     </div>
   );
 }
 
-export default Nav
+export default Nav;
