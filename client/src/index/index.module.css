@@ -131,7 +131,6 @@
     }
 
     .borderAnimation {
-        position: absolute;
         height: 502px;
         width: 502px;
     }
@@ -140,7 +139,7 @@
 @media screen and (max-width:1200px) {
     .headerContainer { 
         flex-direction: column-reverse;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .headerContainer .headerContent {
@@ -159,6 +158,11 @@
     }
 
     .headerImage {
+        height: 102%;
+        width: 102%;
+    }
+
+    .borderAnimation {
         height: 102%;
         width: 102%;
     }
