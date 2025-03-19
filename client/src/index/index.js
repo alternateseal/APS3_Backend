@@ -15,7 +15,7 @@ function Index () {
                     <div className={indexCSS.headerContent}>
                         <h5>Hello I am</h5>
                         <h1>Kyle</h1>
-                        <p>A Strange <span></span></p>
+                        <p>A Strange<span></span></p>
                         <p>engineer, designer, support agent</p>
 
                         <div ClassName={indexCSS.social}>
