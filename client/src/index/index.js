@@ -20,7 +20,7 @@ function Index () {
                     <div className={indexCSS.headerContent}>
                         <h5>Hello, I am</h5>
                         <h1>Kyle</h1>
-                        <p>A&nbsp;
+                        <p>
                             <span>
                                 <ReactTyped
                                     strings={['Web Designer' , 'App Designer' , 'UI / UX Designer' , 'Full-stack Developer' , 'Database Architect' , 'API Developer' , 'Backend Engineer' , 'Reverse Engineer']}
