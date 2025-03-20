@@ -17,6 +17,12 @@
   -webkit-background-clip: text;
 }
 
+.nav ul {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
 .nav ul li {
   display: inline-block;
   margin: 0 12px;
