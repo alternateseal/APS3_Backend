@@ -117,9 +117,6 @@
     border-bottom: 1px solid #dddddd18;
   }
 
-  .nav  .openMenu {
-    left: 0;
-
   } */
 
   #bars {
@@ -147,5 +144,8 @@
     padding-left: 12%;
     border-bottom: 1px solid #dddddd18;
   }
+  
+  .nav  .openMenu {
+    left: 0;
 
 }
