@@ -23,7 +23,7 @@
 .headerContent h1 {
     font-size: 100px;
     line-height: 110px;
-    background: linear-gradient(90deg , var(--primary-color) , #3efdcd 50%);
+    background: linear-gradient(90deg , var(--primary-color) , #ffe1aa 50%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }  
