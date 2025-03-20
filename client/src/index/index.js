@@ -24,13 +24,12 @@ function Index () {
                             <span>
                                 <ReactTyped
                                     strings={['Web Designer' , 'App Designer' , 'UI / UX Designer' , 'Full-stack Developer' , 'Database Architect' , 'API Developer' , 'Backend Engineer']}
-                                    typeSpeed={100}
+                                    typeSpeed={20}
                                     loop={true}
-                                    backSpeed={100}
+                                    backSpeed={20}
                                 ></ReactTyped>
                             </span>
                         </p>
-                        <p></p>
 
                         <div className={indexCSS.social}>
                             <a href="https://www.linkedin.com/in/kyle-brunker" target="_blank" rel="noopener noreferrer">
