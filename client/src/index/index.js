@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "./../component/Nav";
+import resumePDF from './../assets/resume.pdf';
 
 import indexCSS from './index.module.css';
 
@@ -40,7 +41,11 @@ function Index () {
                             </a>
                         </div>
 
-                        <button>CV <i className="ri-file-list-3-line"></i></button>
+                        <a href={resumePDF} download target="_blank" rel="noopener noreferrer">
+                            <button>
+                                CV <i className="ri-file-list-3-line"></i>
+                            </button>
+                        </a>
                     </div>
                     <div className={indexCSS.headerImage}>
                         <img src={heroImg} alt="hero-image" />
