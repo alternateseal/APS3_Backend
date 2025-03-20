@@ -32,8 +32,7 @@ function Nav() {
       </ul>
 
       <i className="ri-menu-4-line" id={navCSS.bars} onClick={menuhandler}></i>
-
-      <ToastContainer position="bottom-right" autoClose={2000} hideProgressBar />
+      
     </div>
   );
 }
