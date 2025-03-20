@@ -96,7 +96,7 @@
 } */
 
 @media screen and (max-width:900px) {
-  #bars {
+ /* OLD #bars {
     display: flex;
   }
 
@@ -120,6 +120,32 @@
   .nav  .openMenu {
     left: 0;
 
+  } */
+
+  #bars {
+    display: flex;
+  }
+
+  .nav ul {
+    position: absolute;
+    top: 100%;
+    left: -100%;
+    width: 100%;
+
+    background: rgba(30, 30, 30, 0.4);  /* Transparent dark */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
+    border-top: 1px solid rgba(255, 255, 255, 0.1); /* Soft border on top */
+    z-index: 9999;
+    transition: .6s;
+  }
+
+  .nav ul li {
+    display: block;
+    padding: 30px 0;
+    padding-left: 12%;
+    border-bottom: 1px solid #dddddd18;
   }
 
 }
