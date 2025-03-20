@@ -23,17 +23,21 @@ function Index () {
                             <span>
                                 <ReactTyped
                                     strings={['Web Designer' , 'App Designer' , 'UI / UX Designer' , 'Full-stack Developer' , 'Database Architect' , 'API Developer' , 'Backend Engineer']}
-                                    typeSpeed={40}
+                                    typeSpeed={60}
                                     loop={true}
-                                    backSpeed={40}
+                                    backSpeed={60}
                                 ></ReactTyped>
                             </span>
                         </p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
                         <div className={indexCSS.social}>
-                            <i className="ri-linkedin-line"></i>
-                            <i className="ri-github-line"></i>
+                            <a href="https://www.linkedin.com/in/kyle-brunker" target="_blank" rel="noopener noreferrer">
+                                <i className="ri-linkedin-line"></i>
+                            </a>
+                            <a href="https://github.com/alternateseal" target="_blank" rel="noopener noreferrer">
+                                <i className="ri-github-line"></i>
+                            </a>
                         </div>
 
                         <button>CV <i className="ri-file-list-3-line"></i></button>
