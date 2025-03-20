@@ -23,13 +23,15 @@ function Index () {
                         <p>A Strategic&nbsp;
                             <span>
                                 <ReactTyped
-                                    strings={['Web Designer' , 'App Designer' , 'UI / UX Designer' , 'Full-stack Developer' , 'Database Architect' , 'API Developer' , 'Backend Engineer']}
+                                    strings={['Web Designer' , 'App Designer' , 'UI / UX Designer' , 'Full-stack Developer' , 'Database Architect' , 'API Developer' , 'Backend Engineer' , 'Reverse Engineer']}
                                     typeSpeed={20}
                                     loop={true}
                                     backSpeed={20}
                                 ></ReactTyped>
                             </span>
                         </p>
+                        <h6>"Rip and tear, until it is done"</h6>
+                        <p>From hacking Nokias to developing applications, I'm continuously pushing the boundaries of the tech that surrounds us.</p>
 
                         <div className={indexCSS.social}>
                             <a href="https://www.linkedin.com/in/kyle-brunker" target="_blank" rel="noopener noreferrer">

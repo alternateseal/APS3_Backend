@@ -20,9 +20,16 @@
     color: var(--primary-color);
 }
 
+.headerContent h6 {
+    font-size: 22px;
+    letter-spacing: 3;
+    font-style: italic;
+    color: var(--primary-color);
+}
+
 .headerContent h1 {
     font-size: 100px;
-    line-height: 100px;
+    line-height: 120px;
     background: linear-gradient(90deg , var(--primary-color) , #ffffff 50%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
