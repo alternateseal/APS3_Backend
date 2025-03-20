@@ -20,17 +20,17 @@ function Index () {
                     <div className={indexCSS.headerContent}>
                         <h5>Hello, I am</h5>
                         <h1>Kyle</h1>
-                        <p>A Strategic &nbsp;
+                        <p>A Strategic&nbsp;
                             <span>
                                 <ReactTyped
                                     strings={['Web Designer' , 'App Designer' , 'UI / UX Designer' , 'Full-stack Developer' , 'Database Architect' , 'API Developer' , 'Backend Engineer']}
-                                    typeSpeed={60}
+                                    typeSpeed={100}
                                     loop={true}
-                                    backSpeed={60}
+                                    backSpeed={100}
                                 ></ReactTyped>
                             </span>
                         </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p></p>
 
                         <div className={indexCSS.social}>
                             <a href="https://www.linkedin.com/in/kyle-brunker" target="_blank" rel="noopener noreferrer">
