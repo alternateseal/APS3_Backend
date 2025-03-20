@@ -10,7 +10,7 @@ function App() {
     <>
       <div className="header-wrapper">
         <Index />
-        <ToastContainer position="bottom-right" autoClose={2000} hideProgressBar />
+        <ToastContainer position="bottom-right" autoClose={2000} hideProgressBar closeButton={false} />
       </div> 
     </>
   );
