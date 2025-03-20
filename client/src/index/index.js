@@ -40,7 +40,7 @@ function Index () {
                             </a>
                         </div>
 
-                        <a href={resumePDF} download target="_blank" rel="noopener noreferrer">
+                        <a href={resumePDF} target="_blank" rel="noopener noreferrer">
                             <button>
                                 CV <i className="ri-file-list-3-line"></i>
                             </button>
