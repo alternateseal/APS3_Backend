@@ -54,6 +54,31 @@
 #bars {
   height: 45px;
   width: 45px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  backdrop-filter: blur(10px);  /* Glass blur */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+
+  cursor: pointer;
+  transition: 0.4s ease;
+  display: none;
+}
+
+#bars:hover {
+  background: rgba(255, 255, 255, 0.2); /* Slightly more visible on hover */
+  transform: scale(1.05); /* Subtle grow effect */
+}
+
+/* OLD #bars {
+  height: 45px;
+  width: 45px;
 
   border: 1px solid rgba(244, 244, 244, 0.1);
 
@@ -68,7 +93,7 @@
   cursor: pointer;
 
   display: none;
-}
+} */
 
 @media screen and (max-width:900px) {
   #bars {
