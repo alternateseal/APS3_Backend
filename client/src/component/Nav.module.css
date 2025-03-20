@@ -2,10 +2,8 @@
   height: 100px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 0 12%;
-
   position: relative;
 }
 
@@ -15,12 +13,6 @@
   background: linear-gradient(90deg , #ffdb39 , #f78502);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-}
-
-.nav ul {
-  display: flex;
-  margin-left: auto;
-  align-items: center;
 }
 
 .nav ul li {
