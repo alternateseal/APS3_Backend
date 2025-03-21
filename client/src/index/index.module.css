@@ -98,7 +98,7 @@
     z-index: 1;
 
     transform: translate(-50% , -50%);
-/*    will-change: transform, opacity;  TEST 1 */
+    will-change: transform, opacity; /* TEST 1 */
 
     &::after ,
     &::before{
