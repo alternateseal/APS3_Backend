@@ -74,7 +74,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-/*    overflow: hidden;   TEST 2*/
+    overflow: hidden;  /* TEST 2*/
     flex-shrink: 0;
     z-index: 2; /* TEST change back to 3 */
 }
