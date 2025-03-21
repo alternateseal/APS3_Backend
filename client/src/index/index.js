@@ -49,9 +49,8 @@ function Index () {
                         </a>
                     </div>
                     <div className={indexCSS.headerImage}>
-                        <img src={heroImg} alt="hero-image" />
-
                         <div className={indexCSS.borderAnimation}></div>
+                        <img src={heroImg} alt="hero-image" />
                     </div>
                 </div>
             </div>

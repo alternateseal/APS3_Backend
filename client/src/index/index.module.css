@@ -76,15 +76,15 @@
     position: relative;
     overflow: hidden;  /* TEST 2*/
     flex-shrink: 0;
-    z-index: 2; /* TEST change back to 3 */
+    z-index: 3; /* TEST change back to 3 */
 }
 
 .headerImage img {
     width: 580px;
     height: 580px;
     position: relative;
-    z-index: 3; /* TEST change back to 2 */
-    /* -webkit-transform: translateZ(0);   TEST 3 */
+    z-index: 2;
+    -webkit-transform: translateZ(0);  /* TEST 3 */
     border-radius: 50%;
 }
 
