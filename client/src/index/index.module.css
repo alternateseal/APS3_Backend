@@ -74,7 +74,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-/*    overflow: hidden;  TEST 2*/
+    overflow: hidden;  /* TEST 2*/
     flex-shrink: 0;
     z-index: 3;
 }
@@ -97,8 +97,8 @@
     left: 50%;
     z-index: 1;
 
-    transform: translate(-50% , -50%) translateZ(0);
-    will-change: transform, opacity; /* TEST 1 */
+    transform: translate(-50% , -50%);
+/*    will-change: transform, opacity;  TEST 1 */
 
     &::after ,
     &::before{
