@@ -13,7 +13,7 @@ function Nav() {
 
   const handleLinkClick = (label) => {
     if (label !== 'Home' && label !== 'Contact') {
-      toast.info('Under Contruction :(');
+      toast.info(`${label} under construction`);
     }
   };
 
